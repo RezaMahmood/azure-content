@@ -57,7 +57,7 @@ Get your subscription name using the following command.
 Set your Azure subscription. Replace everything within the quotes, including the < and > characters, with the correct names.
 
 	$subscr="<subscription name>"
-	Select-AzureSubscription -SubscriptionName $subscr –Current
+	Select-AzureRMSubscription -SubscriptionName $subscr
 
 
 ## Step 3: Create resources
